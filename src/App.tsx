@@ -1,5 +1,12 @@
+import { Button } from 'antd-mobile'
+
 const App = () => {
-  return <div>this is app</div>
+  return (
+    <div>
+      {' '}
+      <Button color="success">click me</Button> this is app
+    </div>
+  )
 }
 
 export default App
